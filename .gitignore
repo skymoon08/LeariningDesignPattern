@@ -5,7 +5,7 @@
 target
 # Log file
 *.log
-
+HELP.md
 # BlueJ files
 *.ctxt
 .idea
