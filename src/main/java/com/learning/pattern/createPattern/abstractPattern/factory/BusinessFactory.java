@@ -5,7 +5,7 @@ import com.learning.pattern.createPattern.abstractPattern.TeslaCar;
 import com.learning.pattern.createPattern.abstractPattern.car.BenzBusinessCar;
 import com.learning.pattern.createPattern.abstractPattern.car.TeslaBusinessCar;
 
-public class BusinessFactory implements Carfactory {
+public class BusinessFactory implements CarFactory {
 
     @Override
     public BenzCar getBenzCar() {
