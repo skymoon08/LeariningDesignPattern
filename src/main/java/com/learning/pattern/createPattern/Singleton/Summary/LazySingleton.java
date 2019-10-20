@@ -10,6 +10,7 @@ public class LazySingleton {
     private LazySingleton(){}
 
     public static LazySingleton getInstance(){
+
         if (instanace==null){
             instanace = new LazySingleton();
         }
