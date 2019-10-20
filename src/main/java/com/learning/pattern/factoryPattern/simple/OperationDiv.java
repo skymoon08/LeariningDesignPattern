@@ -5,7 +5,7 @@ package com.learning.pattern.factoryPattern.simple;
  */
 public class OperationDiv extends Operation {
     @Override
-    protected double getResult() {
+    public double getResult() {
         if (getValue2() != 0) {
             return getValue1() / getValue2();
         }

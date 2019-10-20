@@ -6,7 +6,7 @@ package com.learning.pattern.factoryPattern.simple;
 public class OperationSub extends Operation {
 
     @Override
-    protected double getResult() {
+    public double getResult() {
         return getValue1() - getValue2();
     }
 }

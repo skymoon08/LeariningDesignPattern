@@ -1,4 +1,4 @@
-package com.learning.pattern.createPattern.Singleton.Serializable;
+package com.learning.pattern.createPattern.Singleton.serializable;
 
 import java.io.Serializable;
 
