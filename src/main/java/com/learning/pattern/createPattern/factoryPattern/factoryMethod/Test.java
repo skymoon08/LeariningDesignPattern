@@ -1,8 +1,7 @@
 package com.learning.pattern.createPattern.factoryPattern.factoryMethod;
 
-import com.learning.pattern.factoryPattern.factoryMethod.AddFactory;
-import com.learning.pattern.factoryPattern.factoryMethod.IFactory;
-import com.learning.pattern.factoryPattern.simple.Operation;
+
+import com.learning.pattern.createPattern.factoryPattern.simple.Operation;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package com.learning.pattern.createPattern.factoryPattern.factoryMethod;
 
-import com.learning.pattern.factoryPattern.simple.Operation;
+
+import com.learning.pattern.createPattern.factoryPattern.simple.Operation;
 
 /**
  * 工厂方法模式

@@ -7,17 +7,17 @@ package com.learning.pattern.createPattern.singletonPattern.Summary;
  */
 public class HungryVarietySingleton {
 
-    private HungryVarietySingleton instance = null;
-
-    static {
-        instance = new HungryVarietySingleton();
-    }
-
-    private HungryVarietySingleton() {
-    }
-
-    public static HungryVarietySingleton getInstance() {
-        return this.instance;
-    }
+//    private HungryVarietySingleton instance = null;
+//
+//    static {
+//        instance = new HungryVarietySingleton();
+//    }
+//
+//    private HungryVarietySingleton() {
+//    }
+//
+//    public static HungryVarietySingleton getInstance() {
+//        return this.instance;
+//    }
 
 }

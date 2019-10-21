@@ -1,6 +1,5 @@
 package com.learning.pattern.createPattern.factoryPattern.simple;
 
-import com.learning.pattern.factoryPattern.simple.Operation;
 
 /**
  * 操作-除法

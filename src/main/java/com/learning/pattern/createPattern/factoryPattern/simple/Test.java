@@ -1,8 +1,7 @@
 package com.learning.pattern.createPattern.factoryPattern.simple;
 
 
-import com.learning.pattern.factoryPattern.simple.Operation;
-import com.learning.pattern.factoryPattern.simple.OperationFactory;
+
 
 public class Test {
 
