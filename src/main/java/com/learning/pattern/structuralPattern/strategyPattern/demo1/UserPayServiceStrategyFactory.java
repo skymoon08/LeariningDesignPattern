@@ -1,4 +1,4 @@
-package com.learning.pattern.structuralPattern.strategyPattern;
+package com.learning.pattern.structuralPattern.strategyPattern.demo1;
 
 import org.springframework.util.Assert;
 
