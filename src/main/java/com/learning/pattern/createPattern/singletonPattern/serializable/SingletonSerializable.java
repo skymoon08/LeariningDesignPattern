@@ -9,9 +9,10 @@ public class SingletonSerializable implements Serializable {
 
     private volatile static SingletonSerializable singleton;
 
-    private SingletonSerializable(){}
+    private SingletonSerializable() {
+    }
 
-    public static SingletonSerializable getSingleton(){
+    public static SingletonSerializable getSingleton() {
         if (singleton == null) {
             synchronized (SingletonSerializable.class) {
                 if (singleton == null) {
@@ -22,7 +23,7 @@ public class SingletonSerializable implements Serializable {
         return singleton;
     }
 
-    private Object readResolve(){
+    private Object readResolve() {
         return singleton;
     }
 
